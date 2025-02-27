@@ -192,8 +192,7 @@
                 "required": [
                   "name",
                   "phoneNumber",
-                  "contactType",
-                  "userId"
+                  "contactType"
                 ],
                 "properties": {
                   "name": {
@@ -224,11 +223,6 @@
                       "home",
                       "personal"
                     ]
-                  },
-                  "userId": {
-                    "description": "Contacts app user's id",
-                    "type": "string",
-                    "example": "65e4decdd286b30065d54af9"
                   },
                   "photo": {
                     "description": "Contact's photo",
